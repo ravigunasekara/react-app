@@ -4,6 +4,11 @@ To test & build the application:
 ./gradlew test
 ./gradlew clean build
 ```
+
+You can run application via gradle
+```
+./gradlew bootRun
+```
 You can build Docker image by running
 ```
 ./gradlew bootBuildImage --imageName=todo-list/todo-app-docker
